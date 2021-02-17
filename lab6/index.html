@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 6 - More Complicated HTML</title>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 </head>
 <body>
+	<div id="content">
+		<img src="img\leo_pokerface.jpg" width=200/>
+		<h1>More Complicated HTML</h1>
+			<p>In this lab, we learned about using more intricate and complex HTML
+				techniques. These advanced techniques in particular are on HTML
+				Forms which are used for sending data to a web page. These forms are
+				commonly used for question queues on websites as we used them for
+				anwering our queries.
+				</p>
+
+			<h2>Challenges</h2>
+				<p>For this lab, I had some difficulty on the confusion of how each of
+				the name, type, and value are distinguished from each other. It took
+			  a considerable amount of time to reassess of how each of the three
+			  code functions are made to work in a website. I asked my partner,
+				Eva-lyn, some questions primarily on what the input names do in a web
+				page as I learned that the web page just only reads what the input names
+			  are on the code via by computer. </p>
+		<h2>Results</h2>
+		<li> <a href="../index.html">Homepage</a>
+
+			<form action="http://google.com/search" method="GET">
+	  	<label>Input Function:<input name="q" type="input"><br/>
+	    <label>Checkbox Function<input name="squareboi" type="checkbox" value="checkbox"> </label>
+				</br>
+			<label>Radio Function:<input name="roundboi" type="radio" value="heyo">Heyo</label>
+				<label><input name="roundboi" type="radio" value="sup">Sup</label>
+				</br>
+			<label>Password Function:<input name="rectangleboi" type="password" value="password"> </label>
+				</br>
+	  Dropdown: <select name="adverbs">
+	    <option value="" disabled selected>Adverbs</option>
+	    <option value="when">When</option>
+	    <option value="where">Where</option>
+			<option value="how">How</option>
+	  </select><br/><br/>
+		Typefield: <textarea name="typefield">
+								Type in here
+							 </textarea><br/>
+	  <input value="Submit" type="submit">
+	</form>
 
 </body>
 </html>
