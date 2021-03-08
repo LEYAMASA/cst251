@@ -3,19 +3,14 @@ html {
   font-size:        15px;
   line-height:      1.5;
 
-  color:            #00FFFF;
-  background-color: #6B98EB;
   background-image: url("../img/galaxy_background.png");
-  background-size:  300px;
 }
 
 body {
   font-family:      Verdana, sans-serif;
   font-size:        15px;
   line-height:      1.5;
-
   color:            #00FFFF;
-  background-color: #6B98EB;
 }
 
 h1 {
